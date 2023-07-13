@@ -1,0 +1,15 @@
+#baslangic {
+    border-style: solid;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(183, 245, 237);
+}
+
+header{
+    border-style: solid;
+    border-color: rgb(138, 152, 179);
+    background-color: rgb(93, 85, 122);
+    width: 280px;
+    margin: auto;
+    height: 50px;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML CSS Dersleri">
+    <meta name="description" content="Bu derslerde öğreneceğimiz temel bilgiler şunlardır.">
+    <title>Blog</title>
+    <title>Kişisel Blog Sayası</title>
+    <link rel="stylesheet" href="layour.css">
+
+    <style>
+        .a{
+            list-style-type:square
+        }
+
+        .b{
+            list-style-type: circle;
+        }
+    </style>
+</head>
+
+<!--
+    Visual Studio Code Kısayolları
+
+    1- ALT + SHIFT + F = Kodları düzenlemek
+    2- CTRL + ALT + aşağı veya yukarı ok = imleci yukarı veya aşağı büyütüyor
+    3- ALT + yukarı şağı ok tuşları = satırı kaydırmak için
+    4- Yazıyı seçip CTRL+D aynı diğer yazıları da seçiyor daha sonra değiştirme veya ekleme yap
+    5- CTRL + SHIFT + K = Satır Silmek
+    6- CTRL + ENTER = Yeni Satır
+-->
+
+<!--
+        1- hr: bir satır çizgi çizer
+        2- br: bir satır boşluk bırakır
+        3- strong: yazıyı kalınlaştırır
+        4- b: yazıyı kalınlaştırır, strongla aynı
+        5- i: yazıyı italic yapar
+        6- mark: yazının üstünü sarı kalemle çizer
+        7- center: resim veya yazıtı ortalamak için kullanılır
+        8- a: link vermek için kullanılır
+        9- ol (ordinary list): sıralı liste, type attribute ile kullanılırsa listede bulunan ögeleri istediğin gibi numaralandırır/harflendirir/sıralar
+        10- ul (unordinary list): sırasız liste
+        11- table: tablo
+        12- inline elementi: sahip olduğu alan kadar yer kaplar örneğin span etiketini kullandığımız durumlarda kapladığı alan gibi 
+        13- block: kullanılan etiketin, örneğin <p> veya <h2> gibi, bütün bir satırda yer kaplaması durumuna verdiğimiz isimdir 
+        14- div: sitenin daha iyi dizayn edilebilmesi için kullanılır
+    -->
+
+<!--
+        img(image): resim
+        src(source): kaynak
+        href: link eklediğimiz zaman başka aynı pencerede "başka bir yere" yönlendirir
+        _blank: başka bir pencerede yönlendirir
+        tr: table row (satır)
+        td: table data (veri)
+        th: table header (başlık)
+        rowspan: satırları birleştirmek için kullanılır
+        colspan: sütunları birleştirmek için kullanılır
+        <form action=""></form>: action attribute: gönder butonuna bastığımız zaman başka bir sayfaya yönlendirme yapar
+        <form method=""></form>: method attribute: verilerimizi gönderirken get ile mi yoksa post ile mi göndereceğimizi belirtmemizi sağlar
+    -->
+
+<!--
+    . class
+    # id
+-->
+
+<!--
+    id: Eşsizdir # iletanımlanır
+    Class: Birden çok kullanılabilir ve . ile tanımlanır
+    Etiket(Tag):
+-->
+
+<!--
+    HTML yorum satırı bu şekilde gösterilirken, 
+    CSS yorum satırları aşağıdaki gibi gösterilir:
+
+    /**/
+-->
+
+
+<!--
+    display methodlardan;
+
+    {inline: genişlik ve yükseklij verilemez, kendisi kadar alan kaplar
+    {block: genişlik ve yükseklik verilebilir, bulunduğu alan kadar yer kaplar
+    {inline-block: divlerle oluşturduğumuz boxları yan yana koyabilmemizi sağlar
+-->
+
+<!--
+    text-align: yazıyı hizalandırmak için kullanılır
+-->
+
+<!--
+    selectors kullanım alanları:
+
+    *{
+        bütün elementleri seçer ve değiştirir
+    }
+
+        örneğin:
+
+        *{
+            color: red;
+        } 
+
+        dersek sayfadaki bütün yazıların rengini kırmızı yapar
+
+    p{
+        bütün paragraf taglarını seçer ve değiştirir
+    }
+        örneğin:
+
+        p{
+            color:red;
+        }
+
+        dersek sayfadaki bütün paragrafların rengini kırmızı yapar
+-->
+
+
+<!--
+a:link: ilk hali
+a:hover: üzerine gelindiği zaman
+a:active: linkin üzerine tıklandığında
+a:visited: site ziyaret edildikten sonra
+-->
+
+<!--
+    z-index özelliği resimin üzerine yazı gelmesini sağlar
+-->
+<body>
+    <ul class="a">
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>Süt</li>
+    </ul>
+
+    <br>
+    <ol class="b">
+        <li>Çay</li>
+        <li>Kahve</li>
+        <li>Süt</li>
+
+    </ol>
+    
+</body>
+
+</html>
